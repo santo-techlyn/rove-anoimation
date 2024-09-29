@@ -10,6 +10,9 @@
             onePage: false
         });
 
+        //wow js animation
+        new WOW().init();
+
         // counter up
         $('.counter').counterUp({
             delay: 10,
