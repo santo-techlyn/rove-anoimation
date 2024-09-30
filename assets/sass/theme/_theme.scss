@@ -1899,6 +1899,7 @@
         display: flex;
         align-items: center;
         margin-left: 0px;
+        transition: $transition;
 
         @include tablet {
             width: 50%;
@@ -1912,6 +1913,7 @@
             svg {
                 path {
                     fill: $border-color;
+                    transition: $transition;
                 }
 
                 @include portrait-phone {
@@ -1948,6 +1950,7 @@
             a {
                 color: $border-color;
                 font-weight: 500;
+                transition: $transition;
             }
         }
     }
@@ -1969,6 +1972,7 @@
                 svg {
                     path {
                         fill: $primary-color;
+                        transition: $transition;
                     }
                 }
             }
@@ -1976,6 +1980,7 @@
             h3 {
                 a {
                     color: $primary-color;
+                    transition: $transition;
                 }
             }
         }

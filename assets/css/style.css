@@ -3734,6 +3734,7 @@ nav .main-menu li a {
   display: flex;
   align-items: center;
   margin-left: 0px;
+  transition: all 0.3s ease-in;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .rewards-single .rewards-title {
@@ -3747,6 +3748,7 @@ nav .main-menu li a {
 }
 .rewards-single .rewards-title .rewards-left-img svg path {
   fill: #B0B0B0;
+  transition: all 0.3s ease-in;
 }
 @media (max-width: 575.98px) {
   .rewards-single .rewards-title .rewards-left-img svg {
@@ -3785,6 +3787,7 @@ nav .main-menu li a {
 .rewards-single .rewards-title h3 a {
   color: #B0B0B0;
   font-weight: 500;
+  transition: all 0.3s ease-in;
 }
 .rewards-single.active .rewards-title {
   margin-left: 60px;
@@ -3802,9 +3805,11 @@ nav .main-menu li a {
 }
 .rewards-single.active .rewards-title .rewards-left-img svg path {
   fill: #141414;
+  transition: all 0.3s ease-in;
 }
 .rewards-single.active .rewards-title h3 a {
   color: #141414;
+  transition: all 0.3s ease-in;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .rewards-single.active .rewards-image {
