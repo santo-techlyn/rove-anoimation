@@ -123,9 +123,10 @@
                 position: relative;
 
                 input {
-                    width: 110%;
+                    width: 95%;
                     padding: 20px;
                     margin-top: 70px;
+                    padding-right: 50px;
                     border: 0;
                     border-bottom: 1px solid $border-color;
                     font-size: 18px;
@@ -171,7 +172,7 @@
                     width: 20px;
                     position: absolute;
                     top: 92px;
-                    right: -25px;
+                    right: -35px;
 
                     @include screen-1200 {
                         right: 0;

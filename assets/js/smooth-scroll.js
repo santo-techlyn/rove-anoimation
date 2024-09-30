@@ -58,7 +58,7 @@ function update() {
     moving = false
 }
 
-var requestFrame = function () { // requestAnimationFrame cross browser
+var requestFrame = function () { 
     return (
     window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
