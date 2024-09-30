@@ -4009,6 +4009,7 @@
             border: 0;
             border-bottom: 1px solid $primary-color;
             font-size: 20px;
+            padding-right: 40px;
 
             @include all-phone-tablet {
                 width: 90%;
@@ -4021,13 +4022,16 @@
 
         span {
             position: absolute;
-            right: 70px;
+            right: 50px;
             top: 50%;
             transform: translateY(-40%);
             font-size: 24px;
 
+            @include tablet {
+                right: 8px;
+            }
             @include portrait-phone {
-                right: 10px;
+                right: -15px;
             }
         }
     }
@@ -4351,11 +4355,11 @@
 
 //back to top
 .blok:nth-of-type(odd) {
-    background-color: white;
+    background-color: $white-color;
 }
 
 .blok:nth-of-type(even) {
-    background-color: black;
+    background-color: $black-color;
 }
 
 @-webkit-keyframes border-transform {
@@ -4486,7 +4490,6 @@
 
     .progress-wrap svg.progress-circle path {
         stroke: $secondary-color;
-        /* --- Lijn progres kleur rgba(0, 0, 0, 0.945) --- */
         stroke-width: 4;
         box-sizing: border-box;
         -webkit-transition: all 200ms linear;

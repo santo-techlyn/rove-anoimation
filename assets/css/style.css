@@ -5695,6 +5695,7 @@ nav .main-menu li a {
   border: 0;
   border-bottom: 1px solid #141414;
   font-size: 20px;
+  padding-right: 40px;
 }
 @media (max-width: 991.98px) {
   .blog-sidebar .search input {
@@ -5709,14 +5710,19 @@ nav .main-menu li a {
 }
 .blog-sidebar .search span {
   position: absolute;
-  right: 70px;
+  right: 50px;
   top: 50%;
   transform: translateY(-40%);
   font-size: 24px;
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .blog-sidebar .search span {
+    right: 8px;
+  }
+}
 @media (max-width: 575.98px) {
   .blog-sidebar .search span {
-    right: 10px;
+    right: -15px;
   }
 }
 .blog-sidebar .recent-posts {
@@ -5981,11 +5987,11 @@ nav .main-menu li a {
 }
 
 .blok:nth-of-type(odd) {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .blok:nth-of-type(even) {
-  background-color: black;
+  background-color: #000000;
 }
 .paginacontainer .progress-wrap {
   position: fixed;
@@ -6068,7 +6074,6 @@ nav .main-menu li a {
 }
 .paginacontainer .progress-wrap svg.progress-circle path {
   stroke: #6D6D6D;
-  /* --- Lijn progres kleur rgba(0, 0, 0, 0.945) --- */
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear;
